@@ -1,0 +1,28 @@
+body {
+    font-family: 'Gloock', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    background-color: #40513B;
+}
+
+button {
+    background-color: #9DC08B;
+    color: #EDF1D6;
+    font-size: medium;
+    font-family: 'Gloock', serif;
+    border: 2px solid;
+    font-size: 1em;
+    padding: 1em 2em;
+    transition: background-color 0.7s, border-color 0.2s, box-shadow 0.7s, color 0.5s;
+}
+
+button:hover {
+    background-color: #609966;
+    border-color: #c2ff93;
+    color: white;
+    box-shadow: 0em 0.5em 1em -0.4em #c2ff93;
+    transform: translateY(-0.2em);
+    cursor: pointer;
+}
